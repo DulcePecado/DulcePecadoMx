@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dulce Pecado - Menú</title>
+  <link rel="icon" href="img/dulcepecadologo.png" type="image/png">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/10a232f04b.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+</head>
+<body>
+
+  <!-- Logo de la empresa -->
+  <div class="logo-container">
+    <img src="img/dulcepecadologo.png" alt="Logo Dulce Pecado" class="logo">
+  </div>
+
+  <!-- Fondo con partículas -->
+  <div id="particles-js"></div>
+
+  <!-- Menú de navegación -->
+  <header>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    <nav class="nav" id="nav">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="menu.html">Menú</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+  <!-- Sección del Menú -->
+  <main>
+    <section class="hero">
+      <h3>VISION</h3>
+      <p>En Dulce Pecado aspiramos a convertirnos en la marca de postres más deseada de México, reconocida por ofrecer experiencias únicas de sabor, calidad y presentación. Nuestra visión es endulzar momentos especiales, conquistar paladares exigentes y llevar el placer gourmet a cada rincón del país, fusionando innovación, pasión y tradición en cada bocado.</p>
+    </section>
+
+    
+
+    <!-- Formulario de Contacto -->
+    <section id="contacto" class="contact-section">
+      <h2><i class="fas fa-envelope"></i> ¿Hablamos de placer?</h2>
+      <p>¿Tienes dudas, sugerencias o simplemente quieres hablar de postres? Estamos a un mensaje de distancia.</p>
+
+      <form class="contact-form">
+        <label for="name"><i class="fas fa-user"></i> Tu nombre delicioso:</label>
+        <input type="text" id="name" placeholder="¿Cómo te llamas?">
+
+        <label for="email"><i class="fas fa-at"></i> Tu correo con sabor:</label>
+        <input type="email" id="email" placeholder="Para endulzar tu bandeja de entrada...">
+
+        <label for="message"><i class="fas fa-comment-dots"></i> Cuéntanos tu antojo:</label>
+        <textarea id="message" placeholder="Escríbenos lo que tengas en mente..."></textarea>
+
+        <button type="submit"><i class="fas fa-paper-plane"></i> Enviar con amor</button>
+      </form>
+
+      <div class="contact-info">
+        <p><i class="fas fa-map-marker-alt"></i> Playa del Carmen, México</p>
+        <p><i class="fas fa-phone-alt"></i> +52 998 718 4804</p>
+        <p><i class="fas fa-clock"></i> Lunes a viernes: 10am - 6pm</p>
+      </div>
+    </section>
+
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>© 2025 Dulce Pecado. Todos los derechos reservados.</p>
+      <ul class="footer-links">
+        <li><a href="mision.html">Misión</a></li>
+        <li><a href="vision.html">Visión</a></li>
+        <li><a href="politica.html">Política de privacidad</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
